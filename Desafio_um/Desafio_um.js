@@ -40,9 +40,9 @@ switch (nome) {
 
   case 'poção de mana':
 
-    console.log(quantidade >= 2 ? "Disponível" : "Indisponível");
+    console.log(quantidade > 2 ? "Disponível" : "Indisponível");
     break;
-    
+
   default:
     console.log("Item não encontrado");
 }
