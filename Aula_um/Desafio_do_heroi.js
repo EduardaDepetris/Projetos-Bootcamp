@@ -1,4 +1,4 @@
-let nomes = ["Eduarda", "Murilo", "Kimberli"];
+let nomes = ["Eduarda", "João", "Maria"];
 let xps = [9000, 1500, 3000];
 
 for (let i = 0; i < nomes.length; i++) {
