@@ -46,25 +46,25 @@ let saldoVitorias = resultado(qntdVitorias, qntdDerrotas)
 
     let nivel;
 
-    if (qntdVitorias <= 10){
+    if (saldoVitorias <= 10){
         nivel = "Ferro";
 
-    } else if (qntdVitorias >= 11  && qntdVitorias <= 20){
+    } else if (saldoVitorias >= 11  && saldoVitorias <= 20){
         nivel = "Bronze";
 
-    } else if (qntdVitorias >= 21  && qntdVitorias <= 50){
+    } else if (saldoVitorias >= 21  && saldoVitorias <= 50){
         nivel = "Prata";
         
-    } else if (qntdVitorias >= 51  && qntdVitorias <= 80){
+    } else if (saldoVitorias >= 51  && saldoVitorias <= 80){
         nivel = "Ouro";
         
-    } else if (qntdVitorias >= 81  && qntdVitorias <= 90){
+    } else if (saldoVitorias >= 81  && saldoVitorias <= 90){
         nivel = "Diamante";
         
-    } else if (qntdVitorias >= 91  && qntdVitorias <= 100){
+    } else if (saldoVitorias >= 91  && saldoVitorias <= 100){
         nivel = "Lendário";
         
-    } else if (qntdVitorias >= 101){
+    } else if (saldoVitorias >= 101){
         nivel = "Imortal";
         
     }
@@ -72,4 +72,3 @@ let saldoVitorias = resultado(qntdVitorias, qntdDerrotas)
 
 
 console.log('O Herói tem de saldo de ' + saldoVitorias + ' vitórias e está no nível de ' + nivel );
-
